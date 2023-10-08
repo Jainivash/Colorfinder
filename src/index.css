@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  width: 100%; 
+  max-width: 500px;
+  border: 1px solid mediumblue;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  padding: 0 0.25em;
+  background-color: mediumblue;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+footer {
+  width: 100%;
+  padding: 0.25em;
+  background-color: mediumblue;
+  color: aliceblue;
+  display: grid;
+  place-content: center;
+}
+
+.colorBox{
+  width: 200px;
+  height: 200px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colorBox div p{
+  padding: 15px;
+  font-weight: 500;
+}
+
+.colorNameBox{
+  width: 200px;
+  margin-top: 10px;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 6px;
+  height: 25px;
+
+}
+
+.colorNameBox:active{
+  border: 1px solid rgb(194, 194, 194);
+}
+
+.swapbtn{
+  width: 200px;
+  padding: 10px 15px;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  background-color: darkcyan;
+  margin-top: 10px;
+}
